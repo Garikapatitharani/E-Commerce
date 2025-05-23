@@ -1,0 +1,159 @@
+header{
+      background-color: white;
+      display: grid;
+      grid-template-columns: 65% 35% ; 
+      position: sticky;
+      top: 0;
+      background-color: white;
+      padding: 8px;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+nav{
+      margin-top: 15px;
+      padding-top: 20px;
+    }
+nav a{
+      color: black;
+      text-decoration: none;
+      padding-left: 45px;
+      font-size: large;
+      font-weight: bolder;
+      
+    }
+body,html {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      background: white
+    }
+
+.container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 80px;
+      gap: 50px;
+    }
+
+    .text-section {
+      flex: 1;
+    }
+
+    .text-section h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .text-section p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .text-section a {
+      font-size: 16px;
+      color: #000;
+      text-decoration: underline;
+    }
+
+    .image-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+    }
+    i:hover{
+      cursor: pointer;
+      color: blue;
+    }
+    i{
+      margin-right: 10px;
+    }
+
+
+    /* Drop-Down */
+ .dropdown-item:hover{
+    background-color: rgb(3, 3, 106);
+    color: white;
+  }
+.d-flex{
+  margin-left: 800px;
+  padding-top: 28px;
+}
+.dropdown-toggle{
+  margin-left: 80px; 
+  margin-top: 40px;
+}
+
+
+
+/* Wishlist */
+.whishlist:hover{
+  cursor: pointer;
+  color: red;
+}
+
+
+/* plus symbol */
+ .add:hover{
+    color: rgb(84, 84, 225);
+    cursor: pointer;
+  }
+
+  /* price-container */
+  .price-container {
+  display: flex;
+  align-items: center;
+  gap: 170px; /* space between price and plus */
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.plus-button {
+  color: rgb(25, 26, 25);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plus-button:hover{
+  background-color: rgb(15, 15, 236);
+  color: white;
+}
+
+
+/* footer */
+.text-reset{
+  color: aliceblue;
+}
+
+.cancel:hover{
+   cursor: pointer;
+   color: rgb(121, 121, 235);
+}
+
+
+.search:hover{
+  cursor: pointer;
+  border: 1px black solid;
+}
+
+.text-reset{
+  color: rgb(161, 151, 151);
+}
