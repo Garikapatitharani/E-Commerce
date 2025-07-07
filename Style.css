@@ -26,7 +26,8 @@ body,html {
       padding: 0;
       box-sizing: border-box;
       font-family: Arial, sans-serif;
-      background: white
+      background: white;
+      overflow-x: hidden;
     }
 
 .container {
